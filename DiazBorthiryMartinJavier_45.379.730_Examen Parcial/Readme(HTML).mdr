@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Parcial</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id = "carta">
+<label>Nombre</label>
+<input type="text" id = "name">
+<label>Precio</label>
+<input type="number" id = "price">
+<label>Descripcion</label>
+<input type="text" id = "desc">
+<label>Categoria</label>
+<select id = "category">
+
+    <option value ="1">Notebooks</option>
+    
+    <option value ="2">Escritorio</option>
+
+    <option value ="3">accesorios</option>
+    
+   
+</select>
+<button id = "agregar">
+    Agregar
+</button>
+</div>
+
+<div id="carta1">
+    <h2>Lista de Productos</h2>
+    <ul id="productosLista"></ul>
+</div>
+
+
+
+<script type="module" src="index.js"></script>
+</body>
+</html>

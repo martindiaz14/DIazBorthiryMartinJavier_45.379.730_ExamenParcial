@@ -1,0 +1,52 @@
+#carta{
+   float: left;
+    width: 250px;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#carta input{
+    margin: 30px;
+    text-align: justify;
+ }
+ #carta button{
+margin: 30px;
+padding: 10px;
+border-radius: 5px;
+background-color: bisque;
+ }
+ #carta2{
+     background-color: rgb(35, 103, 105);
+     padding: 10px;
+     border-radius: 5px;
+     text-align: justify;
+     margin: 10px;
+     color: azure;
+     font-weight: 600;
+     
+ }
+ #carta2 label{
+
+    margin: 30px;
+
+    
+}
+body{
+    background-color: aquamarine;
+}
+#carta1{
+    float: right;
+     width: 350px;
+     background-color: cadetblue;
+     padding: 10px;
+     border-radius: 5px;
+ }
+ #carta1 input{
+     margin: 30px;
+     text-align: justify;
+  }
+  #carta1 button{
+margin: 30px;
+ padding: 10px;
+ border-radius: 5px;
+ background-color: bisque;}
